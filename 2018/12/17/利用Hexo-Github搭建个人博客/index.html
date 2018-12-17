@@ -96,6 +96,23 @@
 </li>
 </ol>
 <p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/hexo init.png" alt=""></p>
+<p>解释一下文件里面都是干什么的：</p>
+<p>node_modules：是依赖包<br>public：存放的是生成的页面<br>scaffolds：命令生成文章等的模板<br>source：用命令创建的各种文章<br>themes：主题<br>_config.yml：整个博客的配置<br>db.json：source解析所得到的<br>package.json：项目所需模块项目的配置信息</p>
+<hr>
+<h4 id="Github设置"><a href="#Github设置" class="headerlink" title="Github设置"></a><strong>Github设置</strong></h4><p>先去Github注册账号，没有的点<a href="https://github.com/" target="_blank" rel="noopener"><u>这里</u></a></p>
+<p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/sign Github.png" alt=""></p>
+<h2 id="创建Github仓库"><a href="#创建Github仓库" class="headerlink" title="创建Github仓库"></a><strong>创建Github仓库</strong></h2><h5 id="创建一个新的仓库"><a href="#创建一个新的仓库" class="headerlink" title="创建一个新的仓库"></a>创建一个新的仓库</h5><p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/new repo.png" alt=""></p>
+<h5 id="名称格式为-你创建的名字-github-io-按照这个规则创建"><a href="#名称格式为-你创建的名字-github-io-按照这个规则创建" class="headerlink" title="名称格式为  你创建的名字.github.io  按照这个规则创建"></a>名称格式为  你创建的名字.github.io  按照这个规则创建</h5><p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/Create.png" alt=""></p>
+<hr>
+<h2 id="获取SSH"><a href="#获取SSH" class="headerlink" title="获取SSH"></a><strong>获取SSH</strong></h2><h5 id="按照上面步骤创建好后，继续打开Git-Bash"><a href="#按照上面步骤创建好后，继续打开Git-Bash" class="headerlink" title="按照上面步骤创建好后，继续打开Git Bash"></a>按照上面步骤创建好后，继续打开Git Bash</h5><h5 id="在Git-Bash中配置github账户信息（YourName和YourEail都替换成你自己的"><a href="#在Git-Bash中配置github账户信息（YourName和YourEail都替换成你自己的" class="headerlink" title="在Git Bash中配置github账户信息（YourName和YourEail都替换成你自己的)"></a>在Git Bash中配置github账户信息（YourName和YourEail都替换成你自己的)</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;YourName&quot;</span><br><span class="line">git config --global user.email &quot;YourEail&quot;</span><br></pre></td></tr></table></figure>
+<p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/ssh-1.png" alt=""></p>
+<p>创建ssh</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</span><br></pre></td></tr></table></figure>
+<p>一路点回车就行了，按照下图代码找到ssh</p>
+<p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/SSH-2.png" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd ~/.ssh</span><br><span class="line">ls</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
+<p><code>id_rsa.pub</code>文件就是用来存放你SSH的</p>
+<hr>
 
 	</div>
 	<div class="meta split">
