@@ -81,18 +81,20 @@
 	<div class="post-body mb">
 		<h5 id="写这篇博客是帮助别的小伙伴想写个人博客所写，如有错误，请大神指出，欢迎留言，，，，-lt-gt"><a href="#写这篇博客是帮助别的小伙伴想写个人博客所写，如有错误，请大神指出，欢迎留言，，，，-lt-gt" class="headerlink" title="写这篇博客是帮助别的小伙伴想写个人博客所写，如有错误，请大神指出，欢迎留言，，，，&lt; ^^&gt;"></a>写这篇博客是帮助别的小伙伴想写个人博客所写，如有错误，请大神指出，欢迎留言，，，，&lt; ^^&gt;</h5><h4 id="安装Git-Bash"><a href="#安装Git-Bash" class="headerlink" title="安装Git Bash"></a><strong>安装Git Bash</strong></h4><h5 id="一路点next就好了"><a href="#一路点next就好了" class="headerlink" title="一路点next就好了"></a>一路点next就好了</h5><p><a href="https://gitforwindows.org/" target="_blank" rel="noopener"><u>下载地址</u></a></p>
 <hr>
-<h4 id="安装Node-Js"><a href="#安装Node-Js" class="headerlink" title="安装Node Js"></a><strong>安装Node Js</strong></h4><h5 id="一路点next就好了，注意在安装时Custom-Setup选Add-to-PATH，这样不会再去配置电脑环境变量了，然后在Git中输入以下代码，查看环境变量是否配置。"><a href="#一路点next就好了，注意在安装时Custom-Setup选Add-to-PATH，这样不会再去配置电脑环境变量了，然后在Git中输入以下代码，查看环境变量是否配置。" class="headerlink" title="一路点next就好了，注意在安装时Custom Setup选Add to PATH，这样不会再去配置电脑环境变量了，然后在Git中输入以下代码，查看环境变量是否配置。"></a>一路点next就好了，注意在安装时Custom Setup选<strong>Add to PATH</strong>，这样不会再去配置电脑环境变量了，然后在Git中输入以下代码，查看环境变量是否配置。</h5><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
+<h4 id="安装Node-Js"><a href="#安装Node-Js" class="headerlink" title="安装Node Js"></a><strong>安装Node Js</strong></h4><h5 id="一路点next就好了，注意在安装时Custom-Setup选Add-to-PATH，这样不会再去配置电脑环境变量了，然后在Git中输入以下代码，查看环境变量是否配置。"><a href="#一路点next就好了，注意在安装时Custom-Setup选Add-to-PATH，这样不会再去配置电脑环境变量了，然后在Git中输入以下代码，查看环境变量是否配置。" class="headerlink" title="一路点next就好了，注意在安装时Custom Setup选Add to PATH，这样不会再去配置电脑环境变量了，然后在Git中输入以下代码，查看环境变量是否配置。"></a>一路点next就好了，注意在安装时Custom Setup选<strong>Add to PATH</strong>，这样不会再去配置电脑环境变量了，然后在Git中输入以下代码，查看环境变量是否配置。</h5><pre><code class="java">node -v
+</code></pre>
 <p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/node-v.png" alt=""></p>
 <hr>
 <h4 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a><strong>安装Hexo</strong></h4><p>安装时先在自己盘符中新建一个文件夹，这个文件夹就是你本地博客的目录了，然后跳到这个文件夹打开Git Bash</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd 你的磁盘:/文件夹名</span><br></pre></td></tr></table></figure>
-<p>然后安装命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i -g hexo</span><br></pre></td></tr></table></figure>
-<p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/hexo.png" alt=""></p>
+<pre><code>cd 你的磁盘:/文件夹名
+</code></pre><p>然后安装命令：</p>
+<pre><code>npm i -g hexo
+</code></pre><p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/hexo.png" alt=""></p>
 <hr>
 <h4 id="初始化Hexo"><a href="#初始化Hexo" class="headerlink" title="初始化Hexo"></a><strong>初始化Hexo</strong></h4><p>初始化命令：</p>
 <ol>
-<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<li><pre><code class="node">hexo init
+</code></pre>
 </li>
 </ol>
 <p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/hexo init.png" alt=""></p>
@@ -104,14 +106,17 @@
 <h2 id="创建Github仓库"><a href="#创建Github仓库" class="headerlink" title="创建Github仓库"></a><strong>创建Github仓库</strong></h2><h5 id="创建一个新的仓库"><a href="#创建一个新的仓库" class="headerlink" title="创建一个新的仓库"></a>创建一个新的仓库</h5><p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/new repo.png" alt=""></p>
 <h5 id="名称格式为-你创建的名字-github-io-按照这个规则创建"><a href="#名称格式为-你创建的名字-github-io-按照这个规则创建" class="headerlink" title="名称格式为  你创建的名字.github.io  按照这个规则创建"></a>名称格式为  你创建的名字.github.io  按照这个规则创建</h5><p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/Create.png" alt=""></p>
 <hr>
-<h2 id="获取SSH"><a href="#获取SSH" class="headerlink" title="获取SSH"></a><strong>获取SSH</strong></h2><h5 id="按照上面步骤创建好后，继续打开Git-Bash"><a href="#按照上面步骤创建好后，继续打开Git-Bash" class="headerlink" title="按照上面步骤创建好后，继续打开Git Bash"></a>按照上面步骤创建好后，继续打开Git Bash</h5><h5 id="在Git-Bash中配置github账户信息（youName和yourEail都替换成你自己的"><a href="#在Git-Bash中配置github账户信息（youName和yourEail都替换成你自己的" class="headerlink" title="在Git Bash中配置github账户信息（youName和yourEail都替换成你自己的)"></a>在Git Bash中配置github账户信息（youName和yourEail都替换成你自己的)</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;YourName&quot;</span><br><span class="line">git config --global user.email &quot;YourEail&quot;</span><br></pre></td></tr></table></figure>
-<p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/ssh-1.png" alt=""></p>
+<h2 id="获取SSH"><a href="#获取SSH" class="headerlink" title="获取SSH"></a><strong>获取SSH</strong></h2><h5 id="按照上面步骤创建好后，继续打开Git-Bash"><a href="#按照上面步骤创建好后，继续打开Git-Bash" class="headerlink" title="按照上面步骤创建好后，继续打开Git Bash"></a>按照上面步骤创建好后，继续打开Git Bash</h5><h5 id="在Git-Bash中配置github账户信息（youName和yourEail都替换成你自己的"><a href="#在Git-Bash中配置github账户信息（youName和yourEail都替换成你自己的" class="headerlink" title="在Git Bash中配置github账户信息（youName和yourEail都替换成你自己的)"></a>在Git Bash中配置github账户信息（youName和yourEail都替换成你自己的)</h5><pre><code>git config --global user.name &quot;YourName&quot;
+git config --global user.email &quot;YourEail&quot;
+</code></pre><p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/ssh-1.png" alt=""></p>
 <p>创建ssh</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</span><br></pre></td></tr></table></figure>
-<p>一路点回车就行了，按照下图代码找到ssh</p>
+<pre><code>ssh-keygen -t rsa -C &quot;youremail@example.com&quot;
+</code></pre><p>一路点回车就行了，按照下图代码找到ssh</p>
 <p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/SSH-2.png" alt=""></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd ~/.ssh</span><br><span class="line">ls</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
-<p><code>id_rsa.pub</code>文件就是用来存放你SSH的</p>
+<pre><code>cd ~/.ssh
+ls
+cat id_rsa.pub
+</code></pre><p><code>id_rsa.pub</code>文件就是用来存放你SSH的</p>
 <hr>
 <h2 id="将SSH添加到Github"><a href="#将SSH添加到Github" class="headerlink" title="将SSH添加到Github"></a><strong>将SSH添加到Github</strong></h2><h5 id="回到GitHub，点击头像进入设置（看不懂的浏览器有翻译）"><a href="#回到GitHub，点击头像进入设置（看不懂的浏览器有翻译）" class="headerlink" title="回到GitHub，点击头像进入设置（看不懂的浏览器有翻译）"></a>回到GitHub，点击头像进入设置（看不懂的浏览器有翻译）</h5><p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/SSH-3.png" alt=""></p>
 <p>找到<code>SSH and GPG keys</code>点击右上角的绿色的<code>New SSH key</code></p>
@@ -119,29 +124,38 @@
 <p>进去后Title随便填,Key就填你前面找到的SSH,然后点击<code>Add SSH key</code>就OK了</p>
 <p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/SSH-5.png" alt=""></p>
 <p>然后在Github中验证是否添加成功：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-<p>如果出现以下界面，说明你安装成功了</p>
+<pre><code>ssh -T git@github.com
+</code></pre><p>如果出现以下界面，说明你安装成功了</p>
 <p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/ssh-6.png" alt=""></p>
 <p>恭喜你，可以蹦跶了！</p>
 <hr>
 <h4 id="发布博文"><a href="#发布博文" class="headerlink" title="发布博文"></a><strong>发布博文</strong></h4><p>把上面的步骤弄完后，我们就可以发布我们的博文了</p>
 <h5 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h5><p>现在githun中输入以下内容</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-server</span><br></pre></td></tr></table></figure>
-<p>hexo 3.0把服务器独立成个别模块，需要单独安装,安装完成后再Git中再逐条输入以下内容:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-<p>也可以简写为：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p>打开浏览器输入：<code>http://localhost:4000</code></p>
+<pre><code>npm i hexo-server
+</code></pre><p>hexo 3.0把服务器独立成个别模块，需要单独安装,安装完成后再Git中再逐条输入以下内容:</p>
+<pre><code>hexo clean
+hexo generate
+hexo server
+</code></pre><p>也可以简写为：</p>
+<pre><code>hexo clean
+hexo g
+hexo s
+</code></pre><p>打开浏览器输入：<code>http://localhost:4000</code></p>
 <p>然后你就可以看见你想要的东西咯！…^^…</p>
 <h4 id="发布到Github"><a href="#发布到Github" class="headerlink" title="发布到Github"></a><strong>发布到Github</strong></h4><p>前面的是在本地预览，想要别人也看得见就得发布到Github上</p>
 <p>先安装插件：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-<p>然后去修改本地文件夹<code>_config.yml</code>里的内容</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">type: git</span><br><span class="line">  repo: https://github.com/YourgithubName/YourgithubName.github.io.git</span><br><span class="line"> branch: master</span><br></pre></td></tr></table></figure>
-<p>地址改成你创建的用户名就行了</p>
+<pre><code>npm install hexo-deployer-git --save
+</code></pre><p>然后去修改本地文件夹<code>_config.yml</code>里的内容</p>
+<pre><code>deploy:
+type: git
+  repo: https://github.com/YourgithubName/YourgithubName.github.io.git
+ branch: master
+</code></pre><p>地址改成你创建的用户名就行了</p>
 <p>最后再次执行这个步骤就可以了</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
-<p>ps：<u>执行过程中会让你输入你的用户名和密码。</u></p>
+<pre><code>hexo clean
+hexo generate
+hexo deploy
+</code></pre><p>ps：<u>执行过程中会让你输入你的用户名和密码。</u></p>
 <p>以后发布新的博文，都执行一下上面的步骤。</p>
 <p>在浏览器中输入<code>http://yourgithubname.github.io</code>就可以看到你的个人博客啦，是不是很兴奋！如果你Github库的名字没有按照yourgithubname.github.io来起的话,就看不见页面了.</p>
 <hr>
@@ -153,14 +167,19 @@
 <p>选择这个地方是克隆或下载</p>
 <p><img src="/2018/12/17/利用Hexo-Github搭建个人博客/d.jpg" alt=""></p>
 <p>先在Git中输入如下代码：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
-<p>后面的地址是刚刚克隆页面的那个地址，直接复制就好了</p>
+<pre><code>git clone https://github.com/iissnan/hexo-theme-next themes/next
+</code></pre><p>后面的地址是刚刚克隆页面的那个地址，直接复制就好了</p>
 <p>等主题下载好了后，在本地文件夹中修改站点配置文件<code>_config.yml</code></p>
 <p>将theme后面改成自己定的名字（就是将主题下载下来的那个名字可以直接改）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Extensions</span><br><span class="line">## Plugins: https://hexo.io/plugins/</span><br><span class="line">## Themes: https://hexo.io/themes/</span><br><span class="line">theme: next</span><br></pre></td></tr></table></figure>
-<p>把这些弄好后，git继续重复这个步骤</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p>打开浏览器输入：<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></p>
+<pre><code># Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: next
+</code></pre><p>把这些弄好后，git继续重复这个步骤</p>
+<pre><code>hexo clean
+hexo g
+hexo s
+</code></pre><p>打开浏览器输入：<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></p>
 <p>就可以看见你的主题了，开心吧！</p>
 <hr>
 <h4 id="给博客添加个人域名"><a href="#给博客添加个人域名" class="headerlink" title="给博客添加个人域名"></a><strong>给博客添加个人域名</strong></h4><p>我是在腾讯上卖的域名<a href="https://dnspod.qcloud.com/?from=qcloudHpHeaderDnspod&amp;fromSource=qcloudHpHeaderDnspod" target="_blank" rel="noopener">传送门</a></p>
@@ -170,8 +189,12 @@
 <h4 id="修改域名DNS"><a href="#修改域名DNS" class="headerlink" title="修改域名DNS"></a>修改域名DNS</h4><p>注：<strong>需要修改域名DNS为：f1g1ns1.dnspod.net f1g1ns2.dnspod.net 立即修改</strong></p>
 <p>解析后需要等待一段时间才可生效（有快有慢）</p>
 <h4 id="添加CHAME文件"><a href="#添加CHAME文件" class="headerlink" title="添加CHAME文件"></a>添加CHAME文件</h4><p>最后在你的hexo博客目录里的themes目录下的source目录下添加一个CNAME文件，不带后缀，内容如下[写下你自己的域名]：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//生成</span><br><span class="line">hexo g</span><br><span class="line">//push</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<p>这样你就可以用自己额域名了</p>
+<pre><code>//生成
+hexo g
+//push
+hexo d
+
+</code></pre><p>这样你就可以用自己额域名了</p>
 <p><strong>ps：这里说一下，域名得自己买（国内的有活动像腾讯的新用户可以一元购买一年挺划算）还有就是域名要认证。</strong></p>
 <p>最后大家可以看看我的博客主页 <a href="http://lcwins.club/" target="_blank" rel="noopener">传送门</a></p>
 <hr>
@@ -228,7 +251,7 @@ var duoshuoQuery = {short_name:"yumemor"};
 				<div class="media">
 					<img class="headimg" src="http://oct8d1mqf.bkt.clouddn.com/2016-10-17-15%3A42%3A28.jpg" alt="John Doe">
 					<div class="media__body">
-						<h4>Yumemor</h4>
+						<h4>LCW</h4>
 						<p class="site-description">Stay Hungry,Stay Foolish.</p>
 					</div>
 				</div>
@@ -246,7 +269,7 @@ var duoshuoQuery = {short_name:"yumemor"};
 						
 							
 							<li>
-				        		<a href="https://github.com/yumemor" target="_blank">
+				        		<a href="https://github.com/" target="_blank">
 				        			
 				        				<i class="iconfont icon-github"></i>
 				        			
@@ -255,7 +278,7 @@ var duoshuoQuery = {short_name:"yumemor"};
 						
 							
 							<li>
-				        		<a href="https://www.zhihu.com/people/yumemor" target="_blank">
+				        		<a href="" target="_blank">
 				        			
 										<i class="iconfont icon-zhihu"></i>
 				        			
